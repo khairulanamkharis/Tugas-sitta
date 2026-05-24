@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracking Pengiriman - SITTA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="stok.html">Informasi Bahan Ajar</a></li>
+            <li><a href="tracking.html">Tracking Pengiriman</a></li>
+            <li><a href="index.html">Keluar</a></li>
+        </ul>
+    </nav>
+
+    <main style="padding: 20px;">
+        <h2>Pelacakan Pengiriman</h2>
+        <div class="search-box">
+            <input type="text" id="inputD0" placeholder="Masukkan Nomor Delivery Order (COntoh: D0123)">
+            <button onclick="searchTracking()">Cari</button>
+        </div>
+
+        <div id="trackingResult" style="marigin-top: 20px;">
+            </div>
+        </main>
+
+    <script src="js/data.js"></script>
+    <script src"js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Login SITTA UT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Selamat Datang</h2>
+        <form id="loginForm">
+            <input type="email" id="email" placeholder="email" required>
+            <input type="password" id="password" placeholder="password" required>
+            <p><a href="#" onclick="showModal('forgotModal')">Lupa password?</a></p>
+            <button type="submit">Masuk</button>
+            <p>Belum punya akun? <a href="#" onclick="showModal('regModal')">Daftar</a></p>
+            </form>
+        </div>
+    <div id="forgotModal" class ="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('forgotModal')">X</span>
+            <p>Fitur Reset Password akan segera hadir</p>
+            </div>
+        </div>
+    <script src"js/script.js"></script>
+</body>
+</html>
